@@ -1,5 +1,6 @@
 module.exports = {
     signUp: async (req, res, next) => {
+        console.log('req.value.body', req.value.body);
         console.log('UsersController.signUp() called !');
     },
     signIn: async (req, res, next) => {
