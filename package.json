@@ -1,0 +1,25 @@
+{
+  "name": "api-authentication",
+  "version": "1.0.0",
+  "description": "API aunthentication with Node.JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandroseverino/api_authentication_with_node.git"
+  },
+  "author": "lseverino@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandroseverino/api_authentication_with_node/issues"
+  },
+  "homepage": "https://github.com/leandroseverino/api_authentication_with_node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-promise-router": "^3.0.3",
+    "morgan": "^1.9.1"
+  }
+}
