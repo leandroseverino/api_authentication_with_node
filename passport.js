@@ -37,11 +37,13 @@ passport.use(new LocalStrategy({
              return done(null, false);
          }
          // Check if the password is correct 
-         
+         const isMatch = await user.isValidPassword(password);
+         if (!isMatch) {
+            return done(null, false);
+         }
          // Otherwise, return the user
          done(null, user);
     } catch (error) {
         done(error, false);
     }
-
 }));
