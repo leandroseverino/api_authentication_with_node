@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server-dev": "nodemon server/index.js",
-    "client-dev": "npm start --prefix client",
+    "client-dev": "set HTTPS=true&&npm start --prefix client",
     "start-dev": "concurrently \"npm run server-dev\" \"npm run client-dev\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
