@@ -12,7 +12,6 @@ class Header extends Component {
     }
     
     signOut() {
-        console.log('signOut got called !');
         this.props.signOut();
     }
 
